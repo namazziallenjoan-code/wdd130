@@ -21,6 +21,10 @@ main img {
   box-shadow: 0 0 10px grey;
 }
 
+h1 {
+  color: steelblue;
+}
+
 aside {
   background-color: white;
   width: 20rem;
