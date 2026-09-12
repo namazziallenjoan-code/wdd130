@@ -1,0 +1,51 @@
+body {
+  /*hello!*/
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+  background-color: #404040;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  font-size: 1.5em;
+
+}
+
+main {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+main img {
+  width: 100%;
+  box-shadow: 0 0 39px grey;
+}
+
+main section {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+h1 {
+  font-size: 1, 75em;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+section p {
+  margin: 0;
+}
+
+ul {
+  padding-left: 20px;
+}

@@ -1,0 +1,47 @@
+main {
+  max-width: 840;
+}
+
+nav {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+img {
+  width: 150;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 10px grey;
+}
+
+aside {
+  background-color: white;
+  width: 20rem;
+  color: #444;
+  margin: 1em;
+  border: 1px solid rgb(000/ 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+p {
+  padding: 0;
+}
+
+footer {
+  margin-top: 1em;
+  border-top: 1px solid gray;
+  text-align: center;
+}
