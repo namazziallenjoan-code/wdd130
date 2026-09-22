@@ -1,0 +1,150 @@
+/* General Page layout */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+boby {
+  background-color: lightblue;
+  font-family: var(--body-font);
+  line-height: 1.6;
+  max-width: 1000px;
+  color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+  width: 840px;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav,
+p,
+section,
+article {
+  margin: 16px;
+  padding: 8px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+.socialmedia {
+  text-decoration: none;
+}
+
+/* Hero */
+.hore {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  right: 40px;
+  background-color: rgb(225 225 225 0.8);
+  padding: 16px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 0 0 16px 16px;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* History */
+.history {
+  text-align: center;
+}
+
+.history h2 {
+  margin-bottom: 15px;
+}
+
+/* Adventure */
+.adventure {
+  text-align: center;
+}
+
+.adventure-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.adventure-images img {
+  width: 18px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+
+.social-media img {
+  width: 40px;
+  height: auto;
+}
+
+/* Meaning of the words */
+:root {
+  --primary-color: 2e6f95;
+  --body-color: #1f4e68;
+  --heading-font: Georgia, serif;
+  --body-font: Arial, sans-serif;
+}
