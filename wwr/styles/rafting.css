@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-boby {
+body {
   background-color: lightblue;
   font-family: var(--body-font);
   line-height: 1.6;
@@ -52,12 +52,12 @@ nav a:hover {
   color: var(--primary-color);
 }
 
-.socialmedia {
+.social-media {
   text-decoration: none;
 }
 
 /* Hero */
-.hore {
+.hero {
   position: relative;
 }
 
