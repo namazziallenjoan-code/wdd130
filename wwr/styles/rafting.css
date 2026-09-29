@@ -156,13 +156,13 @@ footer img {
 
 .social-media img {
   width: 40px;
+  text-decoration: none;
   height: auto;
 }
 
 /* Meaning of the words */
 :root {
   --primary-color: 2e6f95;
-  --body-color: #1f4e68;
   --heading-font: Georgia, serif;
   --body-font: Arial, sans-serif;
 }
