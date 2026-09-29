@@ -9,20 +9,17 @@ body {
   background-color: lightblue;
   font-family: var(--body-font);
   line-height: 1.6;
-  max-width: 1000px;
+  max-width: 900px;
   color: var(--accent1-color);
 }
 
-header,
-main,
-footer {
+main {
   width: 840px;
   margin: auto;
-  justify-content: space-between;
 
 }
 
-header {
+main header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,15 +34,15 @@ article {
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
+  padding: 16px;
+  background-color: steelblue;
 }
 
 nav a {
-  color: #333;
-  text-decoration: none;
+  color: white;
+  display: block;
   font-weight: bold;
-  padding: 10px;
+  padding: 16px;
 }
 
 nav a:hover {
@@ -65,6 +62,8 @@ nav a:hover {
   display: block;
   width: 100%;
   height: auto;
+  gap: 500px;
+  margin-top: 10px;
 }
 
 .hero h1 {
@@ -80,7 +79,7 @@ nav a:hover {
 
 .hero article {
   position: absolute;
-  top: 150px;
+  top: 400px;
   left: 40px;
   right: 40px;
   background-color: rgb(225 225 225 0.8);
@@ -91,6 +90,7 @@ nav a:hover {
   float: right;
   width: 125px;
   margin: 0 0 16px 16px;
+  gap: 300px;
 }
 
 h1,
@@ -105,18 +105,21 @@ h2 {
 }
 
 .history h2 {
-  margin-bottom: 15px;
+  margin-bottom: 200px;
 }
 
 /* Adventure */
 .adventure {
-  text-align: center;
+  top: 400px;
+  float: left;
 }
 
 .adventure-images {
   display: flex;
+  box-shadow: 0 0 10px grey;
   justify-content: space-between;
-  gap: 10px;
+  gap: 50px;
+  float: right;
 }
 
 .adventure-images img {
@@ -126,9 +129,24 @@ h2 {
 
 /* Footer */
 footer {
-  display: flex;
-  justify-content: space-between;
+  border-top: 1px solid grey;
   align-items: center;
+  margin-top: 1em;
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
+  margin-left: 10px;
 }
 
 .social-media {
