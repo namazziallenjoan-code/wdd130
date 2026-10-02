@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "yandau.five-server",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "visualstudioexptteam.vscodeintellicode"
     ]
 }
