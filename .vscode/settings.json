@@ -5,7 +5,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "vscode.html-language-features",
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
   "editor.quickSuggestions": {
     "comments": "off",
