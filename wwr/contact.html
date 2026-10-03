@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Contact Us | Whitewater Rafting</title>
-  <meta name="description" content="Contact our whitewater rafting  to learn about our rafting trips, adventures
-    and services ">
+  <meta name="description"
+    content="Contact our whitewater rafting company for information about rafting trips,reservations, and adventures">
   <meta name="author" content="Namazzi Allen Joan">
   <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -23,83 +23,76 @@
   </header>
 
   <main>
-    <div class="hero">
-      <img src="images/hero.jpg" alt="People enjoying whitewater rafting.">
-      <h1>Whitewater Rafting Adventure</h1>
-      <article>
-        <h2>Experience the adventure</h2>
-        <img src="images/rafting1.jpg" alt="People rafting on the river">
-        <p>
-          join us on an exciting whitewater rafting adventure.
-          Our experienced guides are here to help you enjoy the
-          river safety while creating unforgettable memories.
-          A new life awaits you on the River Nile.
-        </p>
-      </article>
-    </div>
+    <h1>Contact Us</h1>
+    <section class="company-info">
+      <h2>Company Information</h2>
 
-    <section class="history">
-      <h2>History</h2>
-      <p>
-        Our rafting company was created to provide exciting,
-        safety,memorable experiences on the river. We are
-        passionate about rafting and helping people discover
-        the beauty and adventure of the outdoors.
-      </p>
+      <p><strong> Address</strong>,Uganda</p>
+      <p><strong>Phone</strong>+256748172045</p>
+      <p><strong>Email</strong>Allenjoan@gmail.com</p>
     </section>
 
-    <section class="Adventure">
-      <h2>Adventure Awaits You!</h2>
-      <div class="Adventure-images">
-
-        <figure>
-          <img src="images/rafting1.jpg" alt="Rafting adventure on the river.">
-          <figcaption>River Rafting Adventure</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/rafting2.jpg" alt="People enjoying a rafting trip">
-          <figcaption>Enjoying the River</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/rafting3.jpg" alt="Whitewater rafting adventure">
-          <figcaption>Whitewater Adventure</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/rafting4.jpg" alt="Rafting team on the river">
-          <figcaption>Rafting Team</figcaption>
-        </figure>
-
-        <figure>
-          <img src="images/rafting5.jpg" alt="Exciting river rafting">
-          <figcaption>Exciting River Experience</figcaption>
-        </figure>
-
+    <section>
+      <div class="map">
+        <iframe
+          src=" https://www.google.com/maps/embed?pb=1m18!1m12!1m3!1d3989.6777848155025!2d33.1687358!3d0.48090069999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177e7e77df17684d%3A0x3b54f5c24b4d3124!2sWhite%20Nile%20Rafting%20Ltd%20%7C%20White%20Water%20Rafting%20%7C%20Rafting%20in%20Uganda%20%7C%20Water%20Rafting%20Uganda%20%7C%20White%20Nile%20Rafting%20Uganda!5e0!3m2!1sen!2sug!4v1791033370387!5m2!1sen!2sug"
+          width="300" height="200" allowfullscreen="" loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin" title="Map Showing our location">
+        </iframe>
       </div>
     </section>
-    <form>
-      <label for="name">Full Name:</label>
-      <input type="text" id="name" name="name">
 
-      <input type="radio" id="general" name="question" value="general">
-      <label for="general"> General Question</label>
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee-list">
+        <figure>
+          <img src="images/" alt="Employee 1">
+          <figcaption> Joram Wales - Leading Rafting Guide</figcaption>
+        </figure>
 
-      <input type="radio" id="trip" name="question" value="trip">
-      <label for="trip">Trip Information</label>
+        <figure>
+          <img src="images/" alt="Employee 2">
+          <figcaption>Jane Washington - Safety Coordinator</figcaption>
+        </figure>
 
-      <input type="radio" id="booking" name="question" value="booking">
-      <label for="booking">Booking</label>
+        <figure>
+          <img src="images/" alt="Employee 3">
+          <figcaption>Andrew smith - Trip Coordinator</figcaption>
+        </figure>
+      </div>
+    </section>
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
+    <section>
+      <h2>Send Me Message</h2>
+    </section>
 
-      <input type="checkbox" id="newsletter" name="newsletter">
-      <label for="newsletter">I would like to receive updates about rafting adventure. </label>
+    <section>
+      <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
 
-      <button type="submit">Send Message</button>
-    </form>
+        <label for="Email"> Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <input type="radio" id="general" name="purpose" value="general">
+        <label for="general">General Inquiry</label>
+
+        <input type="radio" id="reservation" name="purpose" value="reservation">
+        <label for="reservionat">Reservation Question</label>
+
+        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+        <label for="suggestion">Website Suggestion</label>
+
+        <label for="massage">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Please subscribe me to the monthly newsletter </label>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
   </main>
 
   <footer>
