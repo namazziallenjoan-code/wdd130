@@ -10,6 +10,9 @@ main {
 
 nav {
   background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
 }
 
@@ -58,6 +61,11 @@ aside h2 {
 
 p {
   padding: 0;
+}
+
+header footer {
+  max-width: 840px;
+  align-items: center;
 }
 
 footer {

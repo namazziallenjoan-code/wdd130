@@ -36,6 +36,7 @@ article {
 nav {
   padding: 16px;
   background-color: steelblue;
+  text-decoration: none;
 }
 
 nav a {
@@ -130,6 +131,7 @@ h2 {
 /* Footer */
 footer {
   border-top: 1px solid grey;
+  text-decoration: none;
   align-items: center;
   margin-top: 1em;
   font-size: 20px;
