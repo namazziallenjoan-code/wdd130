@@ -40,7 +40,7 @@ header img {
 }
 
 nav {
-  background-color: steelblue;
+  background-color: #265d7b;
   padding: 8px;
 }
 
@@ -134,9 +134,19 @@ h2 {
   gap: 10px;
 }
 
+.adventure-images figure {
+  width: 10%;
+  text-align: center;
+}
+
 .adventure-images img {
   width: 18%;
   height: auto;
+}
+
+.adventure-images figcaption {
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 /* Footer */
