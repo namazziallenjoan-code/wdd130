@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+/* Meaning of the words */
+:root {
+  --primary-color: #2e6f95;
+  --accent1-color: #333;
+  --heading-font: Georgia, serif;
+  --body-font: Arial, sans-serif;
+}
+
 body {
   background-color: lightblue;
   font-family: var(--body-font);
@@ -13,16 +21,40 @@ body {
   color: var(--accent1-color);
 }
 
-main {
+header,
+main,
+footer {
   width: 840px;
-  margin: auto;
-
+  margin: 0 auto;
 }
 
-main header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+nav {
+  background-color: steelblue;
+  padding: 8px;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  padding: 16px;
+  text-decoration: none;
+}
+
+main {
+  width: 840px;
+  margin: auto;
 }
 
 nav,
@@ -33,25 +65,8 @@ article {
   padding: 8px;
 }
 
-nav {
-  padding: 16px;
-  background-color: steelblue;
-  text-decoration: none;
-}
-
-nav a {
-  color: white;
-  display: block;
-  font-weight: bold;
-  padding: 16px;
-}
-
 nav a:hover {
   color: var(--primary-color);
-}
-
-.social-media {
-  text-decoration: none;
 }
 
 /* Hero */
@@ -63,8 +78,6 @@ nav a:hover {
   display: block;
   width: 100%;
   height: auto;
-  gap: 500px;
-  margin-top: 10px;
 }
 
 .hero h1 {
@@ -80,10 +93,10 @@ nav a:hover {
 
 .hero article {
   position: absolute;
-  top: 400px;
+  bottom: 400px;
   left: 40px;
   right: 40px;
-  background-color: rgb(225 225 225 0.8);
+  background-color: rgb(225, 225, 225, 0.8);
   padding: 16px;
 }
 
@@ -91,7 +104,6 @@ nav a:hover {
   float: right;
   width: 125px;
   margin: 0 0 16px 16px;
-  gap: 300px;
 }
 
 h1,
@@ -103,42 +115,40 @@ h2 {
 /* History */
 .history {
   text-align: center;
+  padding: 20px;
 }
 
 .history h2 {
-  margin-bottom: 200px;
+  margin-bottom: 16px;
 }
 
 /* Adventure */
 .adventure {
-  top: 400px;
-  float: left;
+  text-align: center;
+  padding: 20px;
 }
 
 .adventure-images {
   display: flex;
-  box-shadow: 0 0 10px grey;
   justify-content: space-between;
-  gap: 50px;
-  float: right;
+  gap: 10px;
 }
 
 .adventure-images img {
-  width: 18px;
+  width: 18%;
   height: auto;
 }
 
 /* Footer */
 footer {
   border-top: 1px solid grey;
+  display: flex;
   text-decoration: none;
   align-items: center;
+  justify-content: space-between;
   margin-top: 1em;
-  font-size: 20px;
-  display: flex;
   padding: 10px;
   text-align: center;
-  justify-content: space-between;
 }
 
 footer p {
@@ -151,20 +161,15 @@ footer img {
   margin-left: 10px;
 }
 
-.social-media {
+.socialmedia {
   display: flex;
   gap: 10px;
+  background-color: transparent;
+  padding: 0;
 }
 
-.social-media img {
+.socialmedia img {
   width: 40px;
-  text-decoration: none;
   height: auto;
-}
-
-/* Meaning of the words */
-:root {
-  --primary-color: 2e6f95;
-  --heading-font: Georgia, serif;
-  --body-font: Arial, sans-serif;
+  margin-left: 10px;
 }
