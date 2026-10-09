@@ -183,3 +183,25 @@ footer img {
   height: auto;
   margin-left: 10px;
 }
+
+/* Contact Page */
+.company-info {
+  max-width: 800ox;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #f0f7fa;
+  border-radius: 8px;
+}
+
+.employee-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+}
