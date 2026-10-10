@@ -32,6 +32,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 }
 
 header img {
@@ -186,22 +187,127 @@ footer img {
 
 /* Contact Page */
 .company-info {
+  text-align: center;
   max-width: 800ox;
-  margin: 30px auto;
-  padding: 25px;
+  margin: 20px auto;
+  padding: 2opx;
   background-color: #f0f7fa;
-  border-radius: 8px;
+}
+
+.company-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .employee-list {
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: flex-start;
   gap: 25px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+.employee-list figure {
+  flex: 1;
+  min-width: 0;
+  max-width: 250px;
+  text-align: center;
+}
+
+.employee-list img {
+  width: 100%;
+  height: 200px;
+}
+
+.employee-list figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Map and Contact-form side by side */
+.contact-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.map-section,
+.contact-form-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.map-section h2,
+.contact-form-section h2 {
+  text-align: center;
+}
+
+.map iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+  border: 0;
 }
 
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #f0f7fa;
+  border: #d0dce2;
+  border-radius: 8px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.radio-option,
+.newsletter-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.radio-option label,
+.newsletter-option label {
+  display: inline;
+  margin: 0;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #265d7b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
