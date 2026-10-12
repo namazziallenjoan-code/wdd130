@@ -73,19 +73,22 @@ nav a:hover {
 /* Hero */
 .hero {
   position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
-  padding: 16px;
+  padding: 1rem;
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
@@ -310,4 +313,197 @@ footer img {
   color: white;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* Home Page */
+header {
+  justify-content: space-evenly;
+}
+
+.home-hero {
+  position: relative;
+  width: 100%;
+}
+
+.home-hero img {
+  display: block;
+  width: 100%px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.home-hero h1 {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  width: 711px;
+  height: 100px;
+  margin: 0;
+  padding: 20px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.home-intro {
+  max-width: 900px;
+  margin: 35px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 14px 25px;
+  background-color: #265d7b;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.newsletter {
+  max-width: 700px;
+  margin: 35px auto;
+  padding: 25px;
+  background-color: #eaf2f5;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter form {
+  display: grid;
+  gap: 15px;
+  max-width: 450px;
+  margin: auto;
+  text-align: left;
+}
+
+.newsletter-field {
+  display: grid;
+  gap: 7px;
+}
+
+.newsletter button {
+  padding: 13px;
+  background-color: #265d7b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30;
+  max-width: 840px;
+  margin: 35px auto;
+  padding: 20px;
+}
+
+.home-card {
+  border-radius: 8px;
+  background-color: #f2f7f9;
+  box-shadow: #aaa;
+}
+
+.home-card img {
+  display: block;
+  width: 25px;
+  height: 250;
+}
+
+.home-content {
+  padding: 20px;
+}
+
+.home-content h2 {
+  margin-top: 0;
+}
+
+.home-content a {
+  color: #173d52;
+  font-weight: bold;
+}
+
+/* Trip page */
+.trips-hero {
+  position: relative;
+  width: 8mpx;
+}
+
+.trips-hero img {
+  display: block;
+  width: 800px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.trips-hero h1 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 800px;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.trips-intro {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.trips-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 16px;
+  background-color: #256d7b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-card {
+  flex: 1;
+  align-items: center;
+  background-color: #f2f7f9;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.trip-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trip-card h2,
+.trip-card p {
+  display: block;
+  margin: 5px;
+}
+
+.trip-table h2 {
+  white-space: nowrap;
+  align-items: center;
+}
+
+.trip-table {
+  width: 40px;
+  text-align: left;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid #777;
+  padding: 14px;
 }
